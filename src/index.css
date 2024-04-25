@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    src: url("../public/fonts/Ubuntu-Regular.ttf") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    src: url("../public/fonts/Ubuntu-Medium.ttf") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    src: url("../public/fonts/Ubuntu-Bold.ttf") format("ttf");
+  }
+
+  :root {
+    --primary-blue-1: 213, 96%, 18%;
+    --primary-blue-2: 243, 100%, 62%;
+    --primary-blue-3: 228, 100%, 84%;
+    --primary-blue-4: 354, 84%, 57%;
+
+    --primary-red-1: 354, 84%, 57%;
+
+    --neutral-gray-1: 231, 11%, 63%;
+    --neutral-gray-2: 229, 24%, 87%;
+    --neutral-gray-3: 217, 100%, 97%;
+    --neutral-gray-4: 231, 100%, 99%;
+    --neutral-gray-5: 0, 0%, 100%;
+  }
+}
